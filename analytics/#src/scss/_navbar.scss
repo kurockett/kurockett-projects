@@ -1,0 +1,29 @@
+.nav{
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  &__logo{
+    width: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_title{
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  &__menu{
+    width: 352px;
+    margin: 0 314px 0 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_link{
+
+    }
+  }
+  &__signs{
+    width: 250px;
+  }
+}

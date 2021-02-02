@@ -1,0 +1,13 @@
+.main-screen{
+  &__left{
+    &_title{
+      color: red;
+    }
+    &_subtitle{
+      color: rebeccapurple;
+    }
+  }
+  &__right{
+
+  }
+}

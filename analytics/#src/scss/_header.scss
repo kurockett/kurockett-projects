@@ -1,0 +1,8 @@
+header {
+  width: 100%;
+  min-height: 815px;
+  background: url("../img/background-top.png") 100% 100% no-repeat;
+  background-size: cover;
+  @import "navbar";
+  @import "main-screen";
+}
