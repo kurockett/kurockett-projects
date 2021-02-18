@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  min-height: 815px;
+  background-image: url("../img/background-bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 114px;
+  @import "footer-screen";
+  @import "contacts";
+}

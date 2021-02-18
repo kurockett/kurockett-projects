@@ -1,0 +1,33 @@
+.reports, .customizable, .templates {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+
+  &__info {
+    max-width: 460px;
+
+    &_title, &_subtitle {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      color: #172755;
+    }
+
+    &_title {
+      width: 410px;
+      font-size: 40px;
+      line-height: 46.88px;
+      margin-bottom: 30px;
+    }
+
+    &_subtitle {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  &__picture {
+
+  }
+}

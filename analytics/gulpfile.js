@@ -126,6 +126,9 @@ gulp.task('svgSprite', () =>
         .pipe(dest(path.build.img))
 )
 
+const cb = () => {
+}
+
 const fontsStyle = () => {
     let fileContent = fs.readFileSync(sourceFolder + '/scss/_fonts.scss');
     if (fileContent == '') {
@@ -133,7 +136,7 @@ const fontsStyle = () => {
         return fs.readdir(path.build.fonts, function (err, items) {
             if (items) {
                 let cFontname;
-                for (var i = 0; i < items.length; i++) {
+                for (let i = 0; i < items.length; i++) {
                     let fontname = items[i].split('.');
                     fontname = fontname[0];
                     if (cFontname !== fontname) {
@@ -144,10 +147,6 @@ const fontsStyle = () => {
             }
         })
     }
-}
-
-function cb() {
-
 }
 
 const watchFiles = () => {

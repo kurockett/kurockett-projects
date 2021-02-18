@@ -1,8 +1,24 @@
-header {
+.header {
   width: 100%;
   min-height: 815px;
-  background: url("../img/background-top.png") 100% 100% no-repeat;
+  background-image: url("../img/background-top.png");
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 38px;
+  &__subtract1 {
+    position: absolute;
+    left: calc(50% - 660px / 2 - 570px);
+    top: -261px;
+  }
+
+  &__subtract2 {
+    position: absolute;
+    left: calc(50% - 1438px / 2 + 437px);
+    top: 0px;
+  }
+
   @import "navbar";
   @import "main-screen";
 }

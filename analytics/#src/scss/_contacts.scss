@@ -1,0 +1,39 @@
+.contacts {
+  border-top: 1px solid #2A407C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 63px 0 103px 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+
+  &__logo, &__list, &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 138px;
+
+    &_title {
+      font-size: 20px;
+      color: #8794BA;
+    }
+  }
+
+  &__list {
+    width: 293px;
+
+    &_item {
+      &-link {
+        color: #8794BA;
+      }
+    }
+  }
+
+
+  &__links {
+    width: 135px;
+  }
+}

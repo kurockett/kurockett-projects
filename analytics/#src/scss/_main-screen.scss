@@ -1,13 +1,49 @@
-.main-screen{
-  &__left{
-    &_title{
-      color: red;
+.main-screen {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  &__left {
+    max-width: 553px;
+    margin-top: 78px;
+    &_title {
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      line-height: 120%;
     }
-    &_subtitle{
-      color: rebeccapurple;
+
+    &_subtitle {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      color: #8794BA;
+      margin: 15px 0 49px 0;
+    }
+    &_link{
+      display: inline-block;
+      background-color: #EF2A82;
+      border-radius: 68px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 10px 80px;
+      text-align: center;
+      color: #FFFFFF;
     }
   }
-  &__right{
 
+  &__right {
+    position: absolute;
+    right: 0;
+    &_chart{
+      position: absolute;
+      left: -69px;
+      top: 25%;
+    }
   }
 }
